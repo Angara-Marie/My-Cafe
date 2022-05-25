@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 5px;
+}
+body{
+    height:100%;
+    background-image: url(my.jpg);
+    background-position: 100%;
+    background-size: cover;
+    margin: 0;
+}
+.nav_bar{
+    display: flex;
+}
+header{
+    font-style: italic;
+    color: brown;
+    font-size: 30px;
+}
+ul{
+    margin-left: 60%;
+}
+.nav_bar ul a{
+    text-decoration: none;
+    text-align: right;
+    color: blueviolet;
+
+}
+.container .welcome{
+    text-align: center;
+    justify-content: center;
+    background-color:rgba(5, 47, 53, 0.8);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 300px;
+}
+.welcome h3{
+    font-style: oblique;
+    color: brown;
+}
+.welcome p{
+    font-size: 20px;
+}
+.images img{
+    width: 200px;
+    height: 150px;
+}
+img{
+    margin: 0 7%;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 10%;
+}
